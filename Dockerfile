@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 MAINTAINER Chris Miller <c.a.miller@wustl.edu>
 
-LABEL Basic ubuntu build with stock R and a few other tools
+LABEL Basic ubuntu build with stock R from scratch and a few other tools
 
 #some basic tools
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
